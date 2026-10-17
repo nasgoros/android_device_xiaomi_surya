@@ -3,3 +3,6 @@ ro.config.low_ram=false
 ro.lmk.log_stats=true
 ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=100
+
+# eBPF: the 4.14 kernel is treated as 5.10 by the A16+ bpfloader (as sm6150-common)
+ro.bpf.kver_override=5.10.239

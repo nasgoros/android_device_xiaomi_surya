@@ -17,6 +17,9 @@
 # Product launched with 10.0
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Kernel 4.14 does not meet the Android 17 kernel requirements
+PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
+
 # Enforce native interfaces of product partition as VNDK
 PRODUCT_PRODUCT_VNDK_VERSION := current
 
